@@ -1,4 +1,4 @@
-package seed.seyfer.spring;
+package seed.seyfer.spring.domain;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,4 +1,4 @@
-package seed.seyfer.spring;
+package seed.seyfer.spring.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import seed.seyfer.spring.domain.Developer;
+import seed.seyfer.spring.domain.DeveloperRepository;
+import seed.seyfer.spring.domain.Skill;
+import seed.seyfer.spring.domain.SkillRepository;
 
 /**
  * Created by seyfer on 3/14/16.

@@ -1,4 +1,4 @@
-package seed.seyfer.spring;
+package seed.seyfer.spring.domain;
 
 import javax.persistence.*;
 import java.util.List;
